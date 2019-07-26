@@ -2,4 +2,11 @@ package natrodrigues.agenda.model;
 
 public class Contact {
 
+    private String name, phone, email;
+
+    public Contact(String name, String phone, String email) {
+        this.name  = name;
+        this.email = email;
+        this.phone = phone;
+    }
 }

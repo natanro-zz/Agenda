@@ -22,7 +22,7 @@
         app:backgroundTint="@android:color/holo_red_dark" />
 
     <ListView
-        android:id="@+id/acticity_contact_list_listview"
+        android:id="@+id/activity_contact_list_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

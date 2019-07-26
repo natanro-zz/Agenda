@@ -13,4 +13,8 @@ public class ContactDAO {
 
 
     public List<Contact> allContacts(){return null;}
+
+    public void saveContact(Contact newContact) {
+
+    }
 }

@@ -1,4 +1,4 @@
-package natrodrigues.agenda.ui.acticity;
+package natrodrigues.agenda.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,7 +34,7 @@ public class ContactList extends AppCompatActivity {
     }
 
     private void configureList() {
-        ListView contactList = findViewById(R.id.acticity_contact_list_listview);
+        ListView contactList = findViewById(R.id.activity_contact_list_listview);
         contactList.setAdapter(new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_list_item_1,
