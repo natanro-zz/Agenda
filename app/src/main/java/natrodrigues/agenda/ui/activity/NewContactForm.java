@@ -15,7 +15,7 @@ public class NewContactForm extends AppCompatActivity {
 
     final private String APPBAR_TITLE = "Novo Contato";
     private EditText nameField, phoneField, emailField;
-    final private ContactDAO dao = new ContactDAO();
+    final private ContactDAO dao = new ContactDAO(this);
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,6 @@ public class NewContactForm extends AppCompatActivity {
         setTitle(APPBAR_TITLE);
         configureContactFields();
         configureContactSaveButton();
-        finish();
     }
 
     private void configureContactSaveButton() {
@@ -40,6 +39,8 @@ public class NewContactForm extends AppCompatActivity {
 
     private void saveNewContact(Contact newContact) {
         dao.saveContact(newContact);
+        dao.close();
+        finish();
     }
 
     private Contact createContact() {

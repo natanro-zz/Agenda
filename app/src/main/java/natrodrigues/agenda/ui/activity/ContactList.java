@@ -10,13 +10,16 @@ import android.widget.ListView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.util.List;
+
 import natrodrigues.agenda.R;
 import natrodrigues.agenda.dao.ContactDAO;
+import natrodrigues.agenda.model.Contact;
 
 public class ContactList extends AppCompatActivity {
 
     final private String APPBAR_TITLE = "Contatos";
-    final private ContactDAO dao = new ContactDAO();
+    final private ContactDAO dao = new ContactDAO(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,10 +38,12 @@ public class ContactList extends AppCompatActivity {
 
     private void configureList() {
         ListView contactList = findViewById(R.id.activity_contact_list_listview);
+        List<Contact> contacts = dao.allContacts();
+        dao.close();
         contactList.setAdapter(new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_list_item_1,
-                dao.allContacts()
+                contacts
         ));
     }
 
