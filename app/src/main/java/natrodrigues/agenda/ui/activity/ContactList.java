@@ -1,12 +1,18 @@
 package natrodrigues.agenda.ui.activity;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -20,13 +26,16 @@ public class ContactList extends AppCompatActivity {
 
     final private String APPBAR_TITLE = "Contatos";
     final private ContactDAO dao = new ContactDAO(this);
+    private ListView contactList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_list);
         setTitle(APPBAR_TITLE);
+        contactList = findViewById(R.id.activity_contact_list_listview);
         configureFABAddContact();
+        registerForContextMenu(contactList);
     }
 
 
@@ -36,9 +45,44 @@ public class ContactList extends AppCompatActivity {
         configureList();
     }
 
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, final ContextMenu.ContextMenuInfo menuInfo) {
+        menu.add(Menu.NONE, 1, Menu.NONE, "Editar");
+        menu.add(Menu.NONE, 2, Menu.NONE, "Deletar");
+    }
+
+    @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+
+        AdapterView.AdapterContextMenuInfo menuInfo =  (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+        Contact contact = (Contact) contactList.getItemAtPosition(menuInfo.position);
+
+        switch (item.getItemId()){
+            case 1:
+                editContact(contact);
+                break;
+            case 2:
+                deleteContact(contact);
+                configureList();
+                break;
+        }
+        return super.onContextItemSelected(item);
+    }
+
+    private void editContact(Contact contact) {
+        Intent editOnFormIntent = new Intent(this, NewContactForm.class);
+        editOnFormIntent.putExtra("contact", contact);
+        startActivity(editOnFormIntent);
+    }
+
+    private void deleteContact(Contact contact) {
+        dao.deleteContact(contact);
+        dao.close();
+    }
+
     private void configureList() {
-        ListView contactList = findViewById(R.id.activity_contact_list_listview);
-        List<Contact> contacts = dao.allContacts();
+        contactList = findViewById(R.id.activity_contact_list_listview);
+        List<Contact> contacts = dao.getAllContacts();
         dao.close();
         contactList.setAdapter(new ArrayAdapter<>(
                 this,
