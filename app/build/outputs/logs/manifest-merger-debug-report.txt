@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.android.material:material:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5c085aaa2f86d78e08aacfe86c030c91/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/20b9cba809538e75b91108ddac759c24/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/32598d95db018e520a762ecd72c49305/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/da55bda8189884ea03ce826997c811d5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/f652ffb6d93a4f40825b584043e13d80/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d11540fc6d0341fb0c5772192cb949d8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/e0e41b7b4edea84c3b4b06f49e97c85c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/20c3fa25f09b2babfc6ed50f4401b602/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/b133567dcddfe776aea4dcee678f02a3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/08eab6a1aa4755342fceff13f378881b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1a1490765131ebb4b01e6c53a6db23cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5edff1821d36489f1f75053370e4ca8f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/368fa8c1d4c3fa2956506a45a46b4272/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/e0293ed3bd989f556939e4c073db5c29/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/a1d04981964508c19885fbf041e1ead9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1cd78d30d759a02c19c0153c317b37a9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/cdbef644842d242b7dcb95c438b04fac/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/36ca0dc7f78b25116898aa4538a49938/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/403a7aa0fc399fc1c4cbcd0caf628b19/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/dd7a6bd0ef100805765a98f31b8fecbc/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/116430318baa8cacc0c370c2eb2f07f2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/fee1314a68140d086a334f3fcee3c911/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1d64c1cf7c2ca789a2b3a68c57cdc97d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/4319fd58c9daf06f476e8182e8828453/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/0a1d8c5a13eb80bc8f81a93c410c41c4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d2feebed4dcd3a424f2a74ae573965a7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/26b5c729bc4033e3308df0634604b97b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/a17a16203c29370e7641bd177b9147e6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d0635d9bd2e6bfcaa4df793d0257f5e0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/bae6ed32a5bcaf3f0b9e7fec11bb125d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/462523c02b6eebb641d9437d69633093/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.google.android.material:material:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5c085aaa2f86d78e08aacfe86c030c91/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5c085aaa2f86d78e08aacfe86c030c91/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/32598d95db018e520a762ecd72c49305/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/32598d95db018e520a762ecd72c49305/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/403a7aa0fc399fc1c4cbcd0caf628b19/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/403a7aa0fc399fc1c4cbcd0caf628b19/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/dd7a6bd0ef100805765a98f31b8fecbc/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/dd7a6bd0ef100805765a98f31b8fecbc/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/403a7aa0fc399fc1c4cbcd0caf628b19/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:11:9-40
+activity#natrodrigues.agenda.ui.activity.ContactList
+ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:12:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:16:27-74
+activity#natrodrigues.agenda.ui.activity.NewContactForm
+ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:20:9-63
+	android:name
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml:20:19-61
+uses-sdk
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5c085aaa2f86d78e08aacfe86c030c91/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5c085aaa2f86d78e08aacfe86c030c91/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/20b9cba809538e75b91108ddac759c24/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/20b9cba809538e75b91108ddac759c24/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/32598d95db018e520a762ecd72c49305/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/32598d95db018e520a762ecd72c49305/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/da55bda8189884ea03ce826997c811d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/da55bda8189884ea03ce826997c811d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/f652ffb6d93a4f40825b584043e13d80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/f652ffb6d93a4f40825b584043e13d80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d11540fc6d0341fb0c5772192cb949d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d11540fc6d0341fb0c5772192cb949d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/e0e41b7b4edea84c3b4b06f49e97c85c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/e0e41b7b4edea84c3b4b06f49e97c85c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/20c3fa25f09b2babfc6ed50f4401b602/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/20c3fa25f09b2babfc6ed50f4401b602/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/b133567dcddfe776aea4dcee678f02a3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/b133567dcddfe776aea4dcee678f02a3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/08eab6a1aa4755342fceff13f378881b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/08eab6a1aa4755342fceff13f378881b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1a1490765131ebb4b01e6c53a6db23cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1a1490765131ebb4b01e6c53a6db23cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5edff1821d36489f1f75053370e4ca8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/5edff1821d36489f1f75053370e4ca8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/368fa8c1d4c3fa2956506a45a46b4272/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/368fa8c1d4c3fa2956506a45a46b4272/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/e0293ed3bd989f556939e4c073db5c29/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/e0293ed3bd989f556939e4c073db5c29/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/a1d04981964508c19885fbf041e1ead9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/a1d04981964508c19885fbf041e1ead9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1cd78d30d759a02c19c0153c317b37a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1cd78d30d759a02c19c0153c317b37a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/cdbef644842d242b7dcb95c438b04fac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/cdbef644842d242b7dcb95c438b04fac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/36ca0dc7f78b25116898aa4538a49938/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/36ca0dc7f78b25116898aa4538a49938/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/403a7aa0fc399fc1c4cbcd0caf628b19/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/403a7aa0fc399fc1c4cbcd0caf628b19/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/dd7a6bd0ef100805765a98f31b8fecbc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/dd7a6bd0ef100805765a98f31b8fecbc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/116430318baa8cacc0c370c2eb2f07f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/116430318baa8cacc0c370c2eb2f07f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/fee1314a68140d086a334f3fcee3c911/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/fee1314a68140d086a334f3fcee3c911/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1d64c1cf7c2ca789a2b3a68c57cdc97d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/1d64c1cf7c2ca789a2b3a68c57cdc97d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/4319fd58c9daf06f476e8182e8828453/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/4319fd58c9daf06f476e8182e8828453/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/0a1d8c5a13eb80bc8f81a93c410c41c4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/0a1d8c5a13eb80bc8f81a93c410c41c4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d2feebed4dcd3a424f2a74ae573965a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d2feebed4dcd3a424f2a74ae573965a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/26b5c729bc4033e3308df0634604b97b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/26b5c729bc4033e3308df0634604b97b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/a17a16203c29370e7641bd177b9147e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/a17a16203c29370e7641bd177b9147e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d0635d9bd2e6bfcaa4df793d0257f5e0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/d0635d9bd2e6bfcaa4df793d0257f5e0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/bae6ed32a5bcaf3f0b9e7fec11bb125d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/bae6ed32a5bcaf3f0b9e7fec11bb125d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/462523c02b6eebb641d9437d69633093/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/natrodrigues/.gradle/caches/transforms-2/files-2.1/462523c02b6eebb641d9437d69633093/AndroidManifest.xml:20:5-44
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+		ADDED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
+		INJECTED from /home/natrodrigues/AndroidStudioProjects/Agenda/app/src/main/AndroidManifest.xml
